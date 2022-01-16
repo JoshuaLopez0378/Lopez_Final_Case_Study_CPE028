@@ -1,0 +1,44 @@
+{
+  "_exclude": [
+    "age"
+  ],
+  "vrf": {
+    "default": {
+      "address_family": {
+        "ipv4": {
+          "instance": {
+            "2": {
+              "areas": {
+                "0.0.0.0": {
+                  "database": {
+                    "lsa_types": {
+                      "1": {
+                        "lsa_type": 1,
+                        "lsas": {
+                          "192.168.255.3": {
+                            "adv_router": "192.168.255.3",
+                            "lsa_id": "192.168.255.3",
+                            "ospfv2": {
+                              "header": {
+                                "adv_router": "192.168.255.3",
+                                "age": 1,
+                                "checksum": "0x006E44",
+                                "link_count": 2,
+                                "lsa_id": "192.168.255.3",
+                                "seq_num": "0x80000002"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

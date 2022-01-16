@@ -1,0 +1,16 @@
+--- csr1000v-1-static-route-1/csr1000v-1_show-ip-route_parsed.txt
++++ csr1000v-1-static-route-2/csr1000v-1_show-ip-route_parsed.txt
+ vrf:
+  default:
+   address_family:
+    ipv4:
+     routes:
++     87.0.0.0/24:
++      active: True
++      next_hop:
++       outgoing_interface:
++        GigabitEthernet1:
++         outgoing_interface: GigabitEthernet1
++      route: 87.0.0.0/24
++      source_protocol: static
++      source_protocol_codes: S

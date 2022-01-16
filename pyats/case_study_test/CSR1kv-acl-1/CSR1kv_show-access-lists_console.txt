@@ -1,0 +1,7 @@
++++ CSR1kv with via 'cli': executing command 'show access-lists' +++
+show access-lists
+Standard IP access list 1
+    20 permit 192.168.78.111
+    30 permit 192.175.78.111
+    10 deny   192.168.87.102
+CSR1kv#

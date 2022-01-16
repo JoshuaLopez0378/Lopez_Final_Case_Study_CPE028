@@ -1,0 +1,52 @@
+{
+  "_exclude": [],
+  "vrf": {
+    "default": {
+      "address_family": {
+        "ipv4": {
+          "routes": {
+            "10.10.20.0/24": {
+              "active": true,
+              "next_hop": {
+                "outgoing_interface": {
+                  "GigabitEthernet1": {
+                    "outgoing_interface": "GigabitEthernet1"
+                  }
+                }
+              },
+              "route": "10.10.20.0/24",
+              "source_protocol": "connected",
+              "source_protocol_codes": "C"
+            },
+            "10.10.20.48/32": {
+              "active": true,
+              "next_hop": {
+                "outgoing_interface": {
+                  "GigabitEthernet1": {
+                    "outgoing_interface": "GigabitEthernet1"
+                  }
+                }
+              },
+              "route": "10.10.20.48/32",
+              "source_protocol": "local",
+              "source_protocol_codes": "L"
+            },
+            "87.0.0.0/24": {
+              "active": true,
+              "next_hop": {
+                "outgoing_interface": {
+                  "GigabitEthernet1": {
+                    "outgoing_interface": "GigabitEthernet1"
+                  }
+                }
+              },
+              "route": "87.0.0.0/24",
+              "source_protocol": "static",
+              "source_protocol_codes": "S"
+            }
+          }
+        }
+      }
+    }
+  }
+}

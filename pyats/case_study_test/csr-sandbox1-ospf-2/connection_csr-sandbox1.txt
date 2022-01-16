@@ -1,0 +1,272 @@
+[2022-01-15 23:56:37,219] +++ csr-sandbox1 logfile csr-sandbox1-ospf-2/connection_csr-sandbox1.txt +++
+[2022-01-15 23:56:37,220] +++ Unicon plugin iosxe +++
+Password: 
+[2022-01-15 23:56:38,582] +++ connection to spawn: ssh -l developer 131.226.217.149, id: 140459355325968 +++
+[2022-01-15 23:56:38,582] connection to csr-sandbox1
+
+Hello friends
+
+csr-sandbox1#
+[2022-01-15 23:56:39,222] +++ initializing handle +++
+[2022-01-15 23:56:39,226] +++ csr-sandbox1: executing command 'term length 0' +++
+term length 0
+csr-sandbox1#
+[2022-01-15 23:56:39,709] +++ csr-sandbox1: executing command 'term width 0' +++
+term width 0
+csr-sandbox1#
+[2022-01-15 23:56:40,014] +++ csr-sandbox1: executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.03
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.3, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2019 by Cisco Systems, Inc.
+Compiled Wed 20-Mar-19 07:56 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2019 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+csr-sandbox1 uptime is 3 days, 9 hours, 28 minutes
+Uptime for this control processor is 3 days, 9 hours, 29 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2392579K/3075K bytes of memory.
+Processor board ID 926V75BDNRJ
+3 Gigabit Ethernet interfaces
+32768K bytes of non-volatile configuration memory.
+8113280K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+csr-sandbox1#
+[2022-01-15 23:56:45,955] +++ csr-sandbox1: executing command 'show ip ospf database' +++
+show ip ospf database
+csr-sandbox1#
+
+2022-01-16 00:35:16,246: %UNICON-INFO: +++ csr-sandbox1 logfile csr-sandbox1-ospf-2/connection_csr-sandbox1.txt +++
+
+2022-01-16 00:35:16,259: %UNICON-INFO: +++ Unicon plugin iosxe +++
+Password: 
+
+2022-01-16 00:35:17,664: %UNICON-INFO: +++ connection to spawn: ssh -l developer 131.226.217.149, id: 140353936903808 +++
+
+2022-01-16 00:35:17,664: %UNICON-INFO: connection to csr-sandbox1
+
+Hello friends
+
+csr-sandbox1#
+
+2022-01-16 00:35:18,277: %UNICON-INFO: +++ initializing handle +++
+
+2022-01-16 00:35:18,425: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'term length 0' +++
+term length 0
+csr-sandbox1#
+
+2022-01-16 00:35:19,037: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'term width 0' +++
+term width 0
+csr-sandbox1#
+
+2022-01-16 00:35:19,657: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.03
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.3, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2019 by Cisco Systems, Inc.
+Compiled Wed 20-Mar-19 07:56 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2019 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+csr-sandbox1 uptime is 3 days, 10 hours, 6 minutes
+Uptime for this control processor is 3 days, 10 hours, 8 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2392579K/3075K bytes of memory.
+Processor board ID 926V75BDNRJ
+3 Gigabit Ethernet interfaces
+32768K bytes of non-volatile configuration memory.
+8113280K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+csr-sandbox1#
+
+2022-01-16 00:35:24,760: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'show ip ospf database' +++
+show ip ospf database
+csr-sandbox1#
+
+2022-01-16 04:00:56,305: %UNICON-INFO: +++ csr-sandbox1 logfile csr-sandbox1-ospf-2/connection_csr-sandbox1.txt +++
+
+2022-01-16 04:00:56,318: %UNICON-INFO: +++ Unicon plugin iosxe +++
+Password: 
+
+2022-01-16 04:00:57,727: %UNICON-INFO: +++ connection to spawn: ssh -l developer 131.226.217.149, id: 139642808032896 +++
+
+2022-01-16 04:00:57,727: %UNICON-INFO: connection to csr-sandbox1
+
+Hello friends
+
+
+csr-sandbox1#
+
+2022-01-16 04:00:58,349: %UNICON-INFO: +++ initializing handle +++
+
+2022-01-16 04:00:58,768: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'term length 0' +++
+term length 0
+csr-sandbox1#
+
+2022-01-16 04:00:59,384: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'term width 0' +++
+term width 0
+csr-sandbox1#
+
+2022-01-16 04:01:00,084: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.03
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.3, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2019 by Cisco Systems, Inc.
+Compiled Wed 20-Mar-19 07:56 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2019 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+csr-sandbox1 uptime is 3 days, 13 hours, 32 minutes
+Uptime for this control processor is 3 days, 13 hours, 33 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2392579K/3075K bytes of memory.
+Processor board ID 926V75BDNRJ
+3 Gigabit Ethernet interfaces
+32768K bytes of non-volatile configuration memory.
+8113280K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+csr-sandbox1#
+
+2022-01-16 04:01:03,250: %UNICON-INFO: +++ csr-sandbox1 with via 'cli': executing command 'show ip ospf database' +++
+show ip ospf database
+
+            OSPF Router with ID (192.168.47.126) (Process ID 66)
+
+		Router Link States (Area 0)
+
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+192.168.47.126  192.168.47.126  1050        0x80000003 0x000ED7 2         
+csr-sandbox1#

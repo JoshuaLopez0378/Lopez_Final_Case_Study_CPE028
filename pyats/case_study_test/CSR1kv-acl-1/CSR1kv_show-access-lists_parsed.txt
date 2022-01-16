@@ -1,0 +1,64 @@
+{
+  "1": {
+    "aces": {
+      "10": {
+        "actions": {
+          "forwarding": "deny"
+        },
+        "matches": {
+          "l3": {
+            "ipv4": {
+              "protocol": "ipv4",
+              "source_network": {
+                "192.168.87.102 0.0.0.0": {
+                  "source_network": "192.168.87.102 0.0.0.0"
+                }
+              }
+            }
+          }
+        },
+        "name": "10"
+      },
+      "20": {
+        "actions": {
+          "forwarding": "permit"
+        },
+        "matches": {
+          "l3": {
+            "ipv4": {
+              "protocol": "ipv4",
+              "source_network": {
+                "192.168.78.111 0.0.0.0": {
+                  "source_network": "192.168.78.111 0.0.0.0"
+                }
+              }
+            }
+          }
+        },
+        "name": "20"
+      },
+      "30": {
+        "actions": {
+          "forwarding": "permit"
+        },
+        "matches": {
+          "l3": {
+            "ipv4": {
+              "protocol": "ipv4",
+              "source_network": {
+                "192.175.78.111 0.0.0.0": {
+                  "source_network": "192.175.78.111 0.0.0.0"
+                }
+              }
+            }
+          }
+        },
+        "name": "30"
+      }
+    },
+    "acl_type": "standard",
+    "name": "1",
+    "type": "ipv4-acl-type"
+  },
+  "_exclude": []
+}

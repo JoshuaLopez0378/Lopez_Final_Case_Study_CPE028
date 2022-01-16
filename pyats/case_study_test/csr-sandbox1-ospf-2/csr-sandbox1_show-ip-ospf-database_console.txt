@@ -1,0 +1,10 @@
++++ csr-sandbox1 with via 'cli': executing command 'show ip ospf database' +++
+show ip ospf database
+
+            OSPF Router with ID (192.168.47.126) (Process ID 66)
+
+		Router Link States (Area 0)
+
+Link ID         ADV Router      Age         Seq#       Checksum Link count
+192.168.47.126  192.168.47.126  1050        0x80000003 0x000ED7 2         
+csr-sandbox1#
